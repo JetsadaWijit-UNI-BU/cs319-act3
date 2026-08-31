@@ -51,3 +51,30 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #60a5fa; /* สว่างขึ้นเมื่อชี้เมาส์ */
 }
+
+.profile-wrapper {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  border: 3px solid #2563eb;
+  border-radius: 50%; /* ทำให้เป็นรูปวงกลม */
+  padding: 4px;
+  background-color: #ffffff;
+}
+
+.callout-box {
+  background-color: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 12px 16px;
+  margin-top: 12px;
+  border-radius: 4px;
+  color: #1e40af;
+}
+
+.highlight-mark {
+  background-color: #fef08a;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
