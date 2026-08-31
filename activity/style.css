@@ -1,120 +1,150 @@
 /* จัดฟอนต์และพื้นหลังของทั้งหน้าเว็บ */
 body {
-  font-family: Arial, sans-serif; /* เปลี่ยนฟอนต์ให้อ่านง่าย */
-  background-color: #f4f6f9; /* สีเทาฟ้าอ่อน สบายตา */
-  color: #333333; /* สีตัวอักษรเทาเข้ม ชัดเจน */
-  margin: 20px; /* เว้นขอบรอบนอก */
-  line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
+    font-family: Arial, sans-serif; /* เปลี่ยนฟอนต์ให้อ่านง่าย */
+    background-color: #f4f6f9; /* สีเทาฟ้าอ่อน สบายตา */
+    color: #333333; /* สีตัวอักษรเทาเข้ม ชัดเจน */
+    margin: 20px; /* เว้นขอบรอบนอก */
+    line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
 }
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
 }
 
 header {
-  background-color: #1e3a8a; /* น้ำเงินเข้ม (Primary Theme) */
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  border-radius: 6px;
+    background-color: #1e3a8a; /* น้ำเงินเข้ม (Primary Theme) */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
 }
 
 header h1 {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 nav ul {
-  list-style-type: none; /* ซ่อนสัญลักษณ์จุด bullet */
-  padding: 0;
-  margin-top: 15px;
-  text-align: center;
+    list-style-type: none; /* ซ่อนสัญลักษณ์จุด bullet */
+    padding: 0;
+    margin-top: 15px;
+    text-align: center;
 }
 
 nav ul li {
-  display: inline-block; /* เรียงเมนูเป็นแนวนอน */
-  margin: 0 10px;
+    display: inline-block; /* เรียงเมนูเป็นแนวนอน */
+    margin: 0 10px;
 }
 
 nav ul li a {
-  color: #ffffff;
-  text-decoration: none; /* ซ่อนเส้นใต้ลิงก์ */
-  font-weight: bold;
-  padding: 5px 10px;
-  background-color: #2563eb;
-  border-radius: 4px;
-  transition: background-color 0.2s;
+    color: #ffffff;
+    text-decoration: none; /* ซ่อนเส้นใต้ลิงก์ */
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #2563eb;
+    border-radius: 4px;
+    transition: background-color 0.2s;
 }
 
 nav ul li a:hover {
-  background-color: #60a5fa; /* สว่างขึ้นเมื่อชี้เมาส์ */
+    background-color: #60a5fa; /* สว่างขึ้นเมื่อชี้เมาส์ */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #e5e7eb;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #1e3a8a;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .profile-wrapper {
-  text-align: center;
-  margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .profile-img {
-  border: 3px solid #2563eb;
-  border-radius: 50%; /* ทำให้เป็นรูปวงกลม */
-  padding: 4px;
-  background-color: #ffffff;
+    border: 3px solid #2563eb;
+    border-radius: 50%; /* ทำให้เป็นรูปวงกลม */
+    padding: 4px;
+    background-color: #ffffff;
 }
 
 .callout-box {
-  background-color: #eff6ff;
-  border-left: 4px solid #2563eb;
-  padding: 12px 16px;
-  margin-top: 12px;
-  border-radius: 4px;
-  color: #1e40af;
+    background-color: #eff6ff;
+    border-left: 4px solid #2563eb;
+    padding: 12px 16px;
+    margin-top: 12px;
+    border-radius: 4px;
+    color: #1e40af;
+}
+
+.callout-box p {
+    margin: 0;
 }
 
 .highlight-mark {
-  background-color: #fef08a;
-  padding: 2px 6px;
-  border-radius: 3px;
+    background-color: #fef08a;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+.custom-link {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
 }
 
 table {
-  width: 100%;
-  border-collapse: collapse; /* ยุบเส้นขอบคู่ซ้อน */
-  margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse; /* ยุบเส้นขอบคู่ซ้อน */
+    margin-top: 10px;
 }
 
 table,
 th,
 td {
-  border: 1px solid #cbd5e1;
+    border: 1px solid #cbd5e1;
 }
 
 th {
-  background-color: #e2e8f0;
-  color: #0f172a;
-  padding: 10px;
-  text-align: left;
+    background-color: #e2e8f0;
+    color: #0f172a;
+    padding: 10px;
+    text-align: left;
 }
 
 td {
-  padding: 10px;
+    padding: 10px;
 }
 
 .table-container {
-  width: 100%;
-  overflow-x: auto; /* เลื่อนซ้ายขวาได้เมื่อหน้าจอแคบ */
-  -webkit-overflow-scrolling: touch;
+    width: 100%;
+    overflow-x: auto; /* เลื่อนซ้ายขวาได้เมื่อหน้าจอแคบ */
+    -webkit-overflow-scrolling: touch;
 }
 
 .row-highlight {
-  background-color: #7cb8f3;
+    background-color: #7cb8f3;
 }
 
 .gpa-badge {
-  color: #16a34a;
-  font-weight: bold;
+    color: #16a34a;
+    font-weight: bold;
 }
 
 /* CSS */
@@ -152,6 +182,21 @@ textarea {
     margin-top: 12px;
 }
 
+button {
+    padding: 8px 16px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
 .btn-primary {
     background-color: #2563eb;
     color: #ffffff;
@@ -161,6 +206,24 @@ textarea {
     background-color: #e2e8f0;
     color: #334155;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    margin-top: 20px;
+}
+
+#about { padding-top: 5px; }
+#education { padding-top: 5px; }
+#skills { padding-top: 5px; }
+#contact { padding-top: 5px; }
+#contact-form { margin-top: 10px; }
+#main-content { margin-top: 10px; }
 
 /* 4. RESPONSIVE DESIGN (Media Query) */
 @media (max-width: 640px) {
@@ -180,6 +243,10 @@ textarea {
     header h1 {
         font-size: 1.4rem;
     }
+    
+    header p {
+        font-size: 0.9rem;
+    }
 
     nav ul li {
         display: inline-block;
@@ -190,6 +257,10 @@ textarea {
         display: inline-block;
         font-size: 0.85rem;
         padding: 6px 8px;
+    }
+
+    fieldset {
+        padding: 12px 10px;
     }
 
     .btn-primary,
