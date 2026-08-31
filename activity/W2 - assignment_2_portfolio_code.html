@@ -116,41 +116,38 @@
                 <h2>ติดต่อฉัน (Contact Me)</h2>
                 <p>หากอาจารย์หรือผู้ที่สนใจต้องการสอบถามข้อมูลเพิ่มเติม สามารถส่งข้อความถึงผมได้ผ่านแบบฟอร์มนี้ครับ:</p>
 
-                <form action="https://postman-echo.com/get" method="GET">
+                <form id="contact-form" action="https://postman-echo.com/get" method="GET">
                     <fieldset>
-                        <legend><b>แบบฟอร์มส่งข้อความติดต่อ</b></legend>
+                        <legend>แบบฟอร์มส่งข้อความติดต่อ</legend>
 
-                        <p>
-                            <label for="sender-name">ชื่อ-นามสกุล ผู้ติดต่อ:</label><br>
-                            <input type="text" id="sender-name" name="sender_name" placeholder="กรุณากรอกชื่อของคุณ"
-                                required>
-                        </p>
+                        <div class="form-group">
+                            <label for="sender-name"><strong>ชื่อ-นามสกุล ผู้ติดต่อ:</strong></label><br>
+                            <input type="text" id="sender-name" name="sender_name" placeholder="กรุณากรอกชื่อของคุณ" required>
+                        </div>
 
-                        <p>
-                            <label for="sender-email">อีเมลตอบกลับ:</label><br>
-                            <input type="email" id="sender-email" name="sender_email" placeholder="example@bu.ac.th"
-                                required>
-                        </p>
+                        <div class="form-group">
+                            <label for="sender-email"><strong>อีเมลตอบกลับ:</strong></label><br>
+                            <input type="email" id="sender-email" name="sender_email" placeholder="example@bu.ac.th" required>
+                        </div>
 
-                        <p>
-                            <label for="subject">หัวข้อการติดต่อ:</label><br>
+                        <div class="form-group">
+                            <label for="subject"><strong>หัวข้อการติดต่อ:</strong></label><br>
                             <select id="subject" name="subject">
                                 <option value="general">สอบถามข้อมูลทั่วไป</option>
                                 <option value="project">สอบถามเกี่ยวกับโปรเจกต์ CS319</option>
                                 <option value="recruitment">เสนองาน / ฝึกงาน</option>
                             </select>
-                        </p>
+                        </div>
 
-                        <p>
-                            <label for="message">ข้อความเพิ่มเติม:</label><br>
-                            <textarea id="message" name="message" rows="5" cols="40"
-                                placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
-                        </p>
+                        <div class="form-group">
+                            <label for="message"><strong>ข้อความเพิ่มเติม:</strong></label><br>
+                            <textarea id="message" name="message" rows="5" placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
+                        </div>
 
-                        <p>
-                            <button type="submit">ส่งข้อความ (Submit)</button>
-                            <button type="reset">ล้างข้อมูล (Reset)</button>
-                        </p>
+                        <div class="form-group" style="margin-top: 15px;">
+                            <button type="submit" class="btn-primary">ส่งข้อความ (Submit)</button>
+                            <button type="reset" class="btn-secondary">ล้างข้อมูล (Reset)</button>
+                        </div>
                     </fieldset>
                 </form>
             </section>

@@ -122,3 +122,42 @@ td {
     line-height: 1.8;
     margin-left: 20px;
 }
+
+fieldset {
+    border: 1px solid #cbd5e1;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+legend {
+    padding: 0 8px;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* รวม padding ใน width 100% */
+}
+
+.form-group {
+    margin-top: 12px;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #e2e8f0;
+    color: #334155;
+}
