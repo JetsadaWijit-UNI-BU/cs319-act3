@@ -1,0 +1,40 @@
+/* 
+    Name: Jetsada Wijit
+    ID: 1640705339
+    Repo: https://github.com/JetsadaWijit-UNI-BU/cs319-act3
+*/
+
+p {
+  font-family: "Asap Sharp", sans-serif;
+  color: chartreuse;
+}
+
+#first-name {
+  color: red;
+}
+
+.main-text {
+  color: blue;
+}
+
+.last-name {
+  font-size: 32px;
+  color: aqua;
+}
+
+.large {
+  font-size: 60px;
+}
+
+button {
+  color: red;
+  background-color: azure;
+  border: 2px solid;
+  border-color: chocolate;
+  padding: 10px 20px;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: black;
+}
