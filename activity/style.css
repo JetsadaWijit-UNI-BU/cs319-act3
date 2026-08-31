@@ -1,3 +1,12 @@
+/* จัดฟอนต์และพื้นหลังของทั้งหน้าเว็บ */
+body {
+  font-family: Arial, sans-serif; /* เปลี่ยนฟอนต์ให้อ่านง่าย */
+  background-color: #f4f6f9; /* สีเทาฟ้าอ่อน สบายตา */
+  color: #333333; /* สีตัวอักษรเทาเข้ม ชัดเจน */
+  margin: 20px; /* เว้นขอบรอบนอก */
+  line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;
