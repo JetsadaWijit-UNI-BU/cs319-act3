@@ -161,3 +161,41 @@ textarea {
     background-color: #e2e8f0;
     color: #334155;
 }
+
+/* 4. RESPONSIVE DESIGN (Media Query) */
+@media (max-width: 640px) {
+    body {
+        margin: 10px;
+    }
+
+    .container {
+        padding: 15px 12px;
+        border-radius: 6px;
+    }
+
+    header {
+        padding: 15px 10px;
+    }
+
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 4px 3px;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        font-size: 0.85rem;
+        padding: 6px 8px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        margin-bottom: 8px;
+        padding: 10px;
+    }
+}
